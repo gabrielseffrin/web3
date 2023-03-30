@@ -1,0 +1,34 @@
+@import url(header.css);
+@import url(reset.css);
+@import url(/app/pages/perfil/perfil.css);
+@import url(/app/pages/rh/rh.css);
+@import url(/app/pages/chefe/chefe.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    min-width: 620px;
+}
+
+input:invalid {
+    border: 1px solid rgb(255, 0, 0);
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+body>.container {
+    margin-top: 1%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+}
